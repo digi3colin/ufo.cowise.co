@@ -1,0 +1,48 @@
+{
+  "name": "ufo.cowise.co",
+  "version": "1.0.0",
+  "description": "The online UFO tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digi3colin/ufo.cowise.co.git"
+  },
+  "keywords": [
+    "font",
+    "ufo"
+  ],
+  "author": "Shiba Komino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digi3colin/ufo.cowise.co/issues"
+  },
+  "homepage": "https://github.com/digi3colin/ufo.cowise.co#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "uglify-js": "^3.4.9"
+  },
+
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-proposal-class-properties"
+    ],
+    "presets": [
+      "@babel/preset-react",
+      [
+        "@babel/preset-env",
+        {
+          "modules": "umd"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.jsx"],"names":["console","log","Config"],"mappings":";;;;;;;;;;;;;;;;;;;AACAA,EAAAA,OAAO,CAACC,GAAR,CAAYC,aAAZ","sourcesContent":["import Config from './config/site';\nconsole.log(Config);"],"file":"index.js"}
