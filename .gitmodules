@@ -1,0 +1,3 @@
+[submodule "public/media/vendors/ufo-kit"]
+	path = public/media/vendors/ufo-kit
+	url = https://github.com/digi3colin/ufo-kit.git
