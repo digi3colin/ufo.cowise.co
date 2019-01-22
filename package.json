@@ -28,21 +28,5 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "uglify-js": "^3.4.9"
-  },
-
-  "babel": {
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread",
-      "@babel/plugin-proposal-class-properties"
-    ],
-    "presets": [
-      "@babel/preset-react",
-      [
-        "@babel/preset-env",
-        {
-          "modules": "umd"
-        }
-      ]
-    ]
   }
 }
